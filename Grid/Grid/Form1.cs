@@ -48,7 +48,6 @@ namespace Grid   {
             int sektorY;
             sektorY = e.Y / (int)abstandY;
             g.FillRectangle(Brushes.Red, abstandX * sektorX, abstandY * sektorY, abstandX, abstandY);
-            //MessageBox.Show(e.X.ToString() + "/" + e.Y.ToString());
             g.DrawString()
         }
     }
